@@ -1,0 +1,47 @@
+
+#blogs-header {
+    padding-top: 60px;
+    font-family: $secondary-font;
+    color: $linkcolor;
+    font-size: 3rem;
+    margin-left: 100px;
+}
+.blogs {
+    padding: 60px 20px 20px 20px;
+    height: 100%;
+    width: 100%;
+    background-color: $primary;
+    flex-wrap: wrap;
+    gap: 20px;
+    .each-blog {
+        cursor: pointer;
+        gap: 10px;
+        padding: 15px;
+        background-color: $secondCommon;
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+
+        h2{
+            margin-left: 25px;
+            margin-right: auto;
+            color: $linkcolor;
+        }
+        p{
+            margin-right: auto;
+            margin-left: 25px;
+            color: $linkcolor;
+        }
+
+        //Hover
+        &:hover {
+            transform: scale(1.05);
+           
+        }
+    }
+
+    img {
+        border-radius: 10px;
+        max-width: 90%;
+
+    }
+}

@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+$main-font: 'Roboto', sans-serif;
+$main-font2: 'Bacasime Antique', serif;
+$secondary-font:'Sacramento', cursive;
+
+// Font Sizes 
+$XS:0.5rem;
+$S: 0.8rem;
+$M:1rem;
+$L:1.2rem;
+$XL:1.5rem;
+$XXL:2.5em;
+
+
+
+// Color
+$primary: #F7FFE5;
+$secondary:#A0C49D;
+$common:#C4D7B2;
+$secondCommon: #E1ECC8;
+$detailColor: pink;
+$linkcolor:#3f6927;
+$hoverColor: #215405;
+
+
+// Headings 
+
+h1 {
+    font-size: $XXL;
+}

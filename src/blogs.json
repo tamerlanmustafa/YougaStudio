@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "13 reasons why you should start Yoga today",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+      "img": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8eW9nYXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 2,
+      "title": "Spirituality in 7 steps",
+      "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "img": "https://images.unsplash.com/photo-1593810450979-79e8584f76b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHlvZ2F8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 3,
+      "title": "How your diet affects your mental health",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "img": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRpZXR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 4,
+      "title": "12 tips for Yoga starters",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "img": "https://images.unsplash.com/photo-1588286840104-8957b019727f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8eW9nYXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 5,
+      "title": "Start Yoga at home",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "img": "https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHlvZ2F8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+      "id": 6,
+      "title": "Things you need to know before starting Yoga",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+      "img": "https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8eW9nYXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+    }
+  ]
+  

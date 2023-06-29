@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+ 
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0 ;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $primary;
+    color: white;
+    font-family: $main-font;
+    font-size: 1rem;
+    overflow-x: hidden;
+  }
+
+
+  // Flexbox settings
+  .flex {
+    display:flex;
+    width: 100%;
+    &-fd-c {
+      flex-direction: column;
+    }
+    &-jc-sb {
+      justify-content: space-between;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-jc-sa {
+        justify-content: space-around;
+    }
+    &-jc-se {
+        justify-content: space-evenly;
+    }
+    &-jc-fe {
+        justify-content: flex-end;
+    }
+    &-jc-fs {
+        justify-content: flex-start;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+    &-ai-fe {
+        align-items:flex-end;
+    }
+
+    
+  }
+
+  // Grid settings
+ 
+
+  // Links 
+
+  a, a:hover, a:focus, a:active {
+    color:$linkcolor;
+    text-decoration: none;
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+      color: $hoverColor;
+    }
+  }
