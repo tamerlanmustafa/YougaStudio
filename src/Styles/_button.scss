@@ -1,0 +1,14 @@
+// Navigation buttons/anchor tags
+
+.button {
+    padding: 0.625rem 0.875rem;
+    line-height: 0.8;
+    text-align: center;
+    border: 1px solid $secondary;
+    transition: $transition;
+    background-color: $primary;
+
+    &:hover {
+        background-color: $secondCommon;
+    }
+}

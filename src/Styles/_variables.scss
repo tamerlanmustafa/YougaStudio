@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1&display=swap');
 $main-font: 'Roboto', sans-serif;
-$main-font2: 'Bacasime Antique', serif;
+$main-font2: 'Ysabeau Infant', sans-serif;
 $secondary-font:'Sacramento', cursive;
 
 // Font Sizes 
@@ -21,9 +22,9 @@ $primary: #F7FFE5;
 $secondary:#A0C49D;
 $common:#C4D7B2;
 $secondCommon: #E1ECC8;
-$detailColor: pink;
+$detailColor: hwb(350 75% 0%);
 $linkcolor:#3f6927;
-$hoverColor: #215405;
+$textColor: #215405;
 
 
 // Headings 

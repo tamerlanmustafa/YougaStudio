@@ -1,3 +1,86 @@
-.home {
+// Mobile Design
+
+.hero {
+    height: 100%; 
+    background-image: url(../Media/BackgroundImages/SVG/Asset1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    border-bottom: 5px double $textColor;
+    // Flex gap
+    gap: 10%;
+
+    .join-classes {
+        gap: 20px;
+    }
+
+
+}
+// Classes Intro
+.classes-intro {
+    height: 50%; 
+    // background-image: url(../Media/BackgroundImages/SVG/Asset3.svg);
+    background-image:url(../Media/classesIntro3.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: $primary;
+    background-blend-mode: luminosity;
+    border-bottom: 5px double $textColor;
+    // Flex gap
+    gap: 10%;
+
+    p{
+        font-weight: 700;
+        border-radius: 10px;
+        background-color: #f7ffe554;
+    }
+
+}
+
+.quotes {
+    height: 100%; 
+    background-image: url(../Media/BackgroundImages/SVG/Asset2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    border-bottom: 5px double $textColor;
+
+}
+// NewsLetter/Blogs Subscription
+
+.newsletter {
+    height: 50%;
+    background-image: url(../Media/BackgroundImages/SVG/Asset3.svg);
+    background-repeat: no-repeat;
+    background-position: top 15% center;
+    background-size: 150px;
+
+    // Flex Gap
+    gap: 3%;
     
+    input {
+        padding: 3px 5px;
+        border-radius: 5px;
+        background-color: $secondCommon;
+    }
+    button {
+        font-family: $main-font2;
+    }
+}
+
+
+footer {
+    height: 15%;
+    background-color: $secondCommon ;
+}
+
+
+// Desktop Design
+
+@include breakpoint(tablet) {
+    .home {
+        background-color: green;
+    }
 }

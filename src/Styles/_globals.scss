@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
@@ -17,14 +18,22 @@
   body {
     position: relative;
     margin: 0;
-    padding: 0 ;
+    // Fix it
+    
     width: 100%;
+    height: 100%;
     box-sizing: border-box;
     background-color: $primary;
-    color: white;
-    font-family: $main-font;
+    color: $textColor;
+    font-family: $main-font2;
     font-size: 1rem;
     overflow-x: hidden;
+  }
+
+ 
+  #root {
+    width: 100%;
+    height: 100%;
   }
 
 
@@ -64,7 +73,16 @@
     
   }
 
-  // Grid settings
+  // Default padding for sections
+
+    .default-pad{
+      padding:  8%;
+    }
+
+
+
+  // Transitions
+  $transition: all 150ms ease-in-out;
  
 
   // Links 
@@ -75,6 +93,15 @@
     transition: all 150ms ease-in-out;
 
     &:hover {
-      color: $hoverColor;
+      color: $textColor;
     }
+  }
+
+  // Highlighted words
+  .highlight {
+    color: $detailColor;
+  }
+  .highlight2 {
+    color: rgb(196, 113, 127);
+    font-weight: 900;
   }

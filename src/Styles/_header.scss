@@ -1,9 +1,19 @@
 nav {
-    position: fixed;
+    position: relative;
     height: 50px;
     background-color: $primary;
     font-family: $main-font2;
     font-size: $L;
     // font-weight: bold;
     z-index: 1;
+
+    i {
+        color: $detailColor;
+        font-size: $XL;
+        transition: $transition;
+        &:hover {
+            opacity: 0.8;
+            transform: scale(1.09);
+        }
+    }
 }

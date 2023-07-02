@@ -20,8 +20,8 @@ const Blogs = () => {
             
           </div>
         </div>
-      ))}
-    </div>
+      ))} 
+      </div>
     </>
   );
 }
