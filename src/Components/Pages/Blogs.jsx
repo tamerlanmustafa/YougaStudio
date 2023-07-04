@@ -8,7 +8,6 @@ const Blogs = () => {
 
   return (
     <>
-    <h1 id='blogs-header'>Blogs</h1>
     <div className="blogs flex flex-ai-c flex-jc-c">
       {blogsData.map(blog => (
         

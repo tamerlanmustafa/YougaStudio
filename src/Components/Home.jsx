@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import API from "./Api";
-import classesIntro from "../Media/classesIntro.jpg"
-import classesIntro2 from "../Media/classesIntro2.jpg"
-import classesIntro3 from "../Media/classesIntro3.jpg"
+
 
 const Home = () => {
     return ( 
@@ -12,7 +10,7 @@ const Home = () => {
             <h1>Your <span className="highlight">Space.</span> <br />Your <span className="highlight">Spirit.</span> <br />Your <span className="highlight">Body.</span></h1>
             <div className="join-classes  flex flex-fd-c flex-jc-sa flex-ai-c ">
                 <p>Say hello to yoga and fitness classes that will increase your strength, flexibility, and stability, plus improve your mental clarity and calmness.</p>
-                <Link to="/classes" className="button">Join classes</Link>
+                <Link to="/classes" className="button">Book a class</Link>
             </div>
             </div>
 
@@ -37,9 +35,11 @@ const Home = () => {
             <input type="text" placeholder=" Your email" />  
             <button className="button">Subscribe</button> 
         </div>
-        {/* <footer>
-                
-        </footer> */}
+        <footer>
+                <div>
+                    Copyright &copy; {new Date().getFullYear()}. Tamerlan Mustafayev. All Rights Reserved
+                </div>
+        </footer>
     </>
      );
 }

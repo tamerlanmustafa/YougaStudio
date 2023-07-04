@@ -86,7 +86,7 @@ a:hover, a:hover:hover, a:focus:hover, a:active:hover {
 }
 
 .highlight {
-  color: hwb(350 75% 0%);
+  color: #ffbfca;
 }
 
 .highlight2 {
@@ -95,6 +95,7 @@ a:hover, a:hover:hover, a:focus:hover, a:active:hover {
 }
 
 .button {
+  cursor: pointer;
   padding: 0.625rem 0.875rem;
   line-height: 0.8;
   text-align: center;
@@ -115,7 +116,7 @@ nav {
   z-index: 1;
 }
 nav i {
-  color: hwb(350 75% 0%);
+  color: #ffbfca;
   font-size: 1.5rem;
   transition: all 150ms ease-in-out;
 }
@@ -138,7 +139,7 @@ nav i:hover {
 }
 
 .classes-intro {
-  height: 50%;
+  height: 100%;
   background-image: url(../Media/classesIntro3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -150,9 +151,8 @@ nav i:hover {
   gap: 10%;
 }
 .classes-intro p {
-  font-weight: 700;
   border-radius: 10px;
-  background-color: rgba(247, 255, 229, 0.3294117647);
+  background-color: rgba(247, 255, 229, 0.4117647059);
 }
 
 .quotes {
@@ -178,25 +178,101 @@ nav i:hover {
   background-color: #E1ECC8;
 }
 .newsletter button {
+  cursor: pointer;
   font-family: "Ysabeau Infant", sans-serif;
 }
 
 footer {
-  height: 15%;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 0.8rem;
   background-color: #E1ECC8;
 }
 
 @media screen and (min-width: 768px) {
-  .home {
-    background-color: green;
+  .newsletter {
+    padding: 0 0 5% 0;
   }
 }
 .classes {
-  height: 200px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 30px;
+  gap: 5%;
+}
+.classes > *:not(h2) {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 4% 4%;
+  background-color: #A0C49D;
+  border-radius: 15px;
+  box-shadow: 0px 15px 41px 9px rgba(33, 84, 5, 0.51);
+}
+.classes > *:not(h2) > *:not(:first-child) {
+  margin-top: 20px;
+}
+.classes > *:not(:last-child) {
+  margin-bottom: 20%;
+}
+.classes h2 {
+  color: #F7FFE5;
+}
+.classes img {
   width: 100%;
-  background-color: green;
+  mix-blend-mode: darken;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+.classes p {
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.classes ul {
+  width: 100%;
+  list-style: inside;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .classes {
+    height: 100%;
+    flex-direction: row;
+    padding: 4% 2%;
+    gap: 1%;
+  }
+  .classes > * {
+    margin-bottom: 0 !important;
+  }
+  .classes img {
+    transition: all 200ms ease-in-out;
+  }
+  .classes p {
+    font-size: 1rem;
+  }
+  .classes ul {
+    width: 140%;
+    list-style: outside;
+    font-size: 1rem;
+  }
+  .classes > * {
+    transition: all 200ms ease-in-out;
+  }
+  .classes > * img {
+    transition: all 200ms ease-in-out;
+  }
+  .classes > *:hover {
+    transform: scale(1.05);
+  }
+  .classes > *:hover img {
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
 #blogs-header {
   padding-top: 60px;
   font-family: "Sacramento", cursive;
@@ -216,40 +292,47 @@ footer {
 .blogs .each-blog {
   cursor: pointer;
   gap: 10px;
-  padding: 15px;
+  width: 95%;
+  padding: 15px 15px;
   background-color: #E1ECC8;
+  outline: 2px solid #215405;
   border-radius: 10px;
   transition: all 150ms ease-in-out;
 }
 .blogs .each-blog h2 {
-  margin-left: 25px;
   margin-right: auto;
   color: #3f6927;
 }
 .blogs .each-blog p {
   margin-right: auto;
-  margin-left: 25px;
   color: #3f6927;
 }
 .blogs .each-blog:hover {
   transform: scale(1.05);
+  outline: 0px solid #215405;
+  box-shadow: 0px 15px 41px 9px rgba(33, 84, 5, 0.51);
 }
 .blogs img {
   border-radius: 10px;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .about {
-  height: 200px;
+  height: -moz-min-content;
+  height: min-content;
   width: 100%;
-  background-color: pink;
+}
+.about h2 {
+  color: #ffbfca;
+  margin: 10px 0;
 }
 
 .contact {
-  height: 200px;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 100%;
-  background-color: red;
 }
-.contact > h1 {
-  padding-top: 60px;
+.contact h2 {
+  margin: 10px 0;
+  color: #ffbfca;
 }/*# sourceMappingURL=styles.css.map */

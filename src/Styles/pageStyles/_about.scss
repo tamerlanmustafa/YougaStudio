@@ -1,5 +1,9 @@
 .about {
-    height: 200px;
+    height: min-content;
     width: 100%;
-    background-color: pink;
+
+    h2{
+        color: $detailColor;
+        margin: 10px 0;
+    }
 }
