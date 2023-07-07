@@ -1,6 +1,5 @@
 <!-- YougaStudio README.md -->
 
-# <img src="https://github.com/TamerlanMustafayev/YougaStudio/blob/main/src/assets/images/yougastudio-logo.png" alt="YougaStudio" width="200">
 
 ## Features
 
