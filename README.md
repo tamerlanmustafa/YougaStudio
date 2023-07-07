@@ -1,5 +1,5 @@
 <!-- YougaStudio README.md -->
-
+<h1>YougaStudio</h1>
 
 ## Features
 
@@ -26,8 +26,7 @@ The project structure follows a modular approach to maintain code organization a
 
 - `src/components`: Contains reusable components used across the application.
 - `src/pages`: Houses different pages/views of the application.
-- `src/assets`: Stores static assets such as images and SCSS stylesheets.
-- `src/data`: Holds sample data used for populating the application with classes, instructors, and other relevant information.
+
 
 ## Technologies Used
 
@@ -41,15 +40,9 @@ The project structure follows a modular approach to maintain code organization a
 
 Contributions to YougaStudio are welcome! If you encounter any issues, have suggestions for improvements, or would like to add new features, please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Contact
 
-For any inquiries or additional information about YougaStudio, please email us at info@yougastudio.com or visit our website at [www.yougastudio.com](https://www.yougastudio.com).
-
-Thank you for using YougaStudio! Enjoy your yoga journey with us.
 
 ```html
 
